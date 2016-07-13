@@ -6,3 +6,8 @@ echo "same"
 else
 echo "different"
 fi
+
+
+for((i=1;i<=100;i++));do
+cfsend ip:192.168.74.147 port:46465 uid:a_a_1 pwd:a lf:/transfer/from/1.txt rf:/a_a_1/1.txt
+done
