@@ -1,1 +1,8 @@
-This is my first file o github.
+#!/bin/sh
+a=`du $1|awk  '{print $1}'`
+echo $a
+if [ "$a" = "0" ]; then
+echo "same"
+else
+echo "different"
+fi
