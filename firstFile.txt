@@ -6,3 +6,5 @@ echo "same"
 else
 echo "different"
 fi
+
+Update firstFile.txt
